@@ -11,6 +11,9 @@ created:26/09/2025
 description: style sheet for lab04.html
 
 */
+aside:hover {
+    display: none;
+}
 body {
     font-family: Arial, Helvetica, sans-serif;text-align: left
 }
@@ -25,6 +28,10 @@ h2 {
     color: red;}
  .menu {
     border:solid 3px gray}
+.menu:hover {
+    background-color: lightblue;
+   border-color: darkblue;
+}
 hr {
   border: 1px solid #0c0000;
   margin-top: 20px;
@@ -34,12 +41,17 @@ table {
     width: 50%;        
     margin-left: 0;   
 }
+.month {
+    text-align: right}
 th, td {
     border: 2px double #666;
     padding: 8px;
     text-align: center; 
+    
 }
 .special {
     color:darkorange
 }
 a { color: black }
+ul li { list-style-type: square };
+#images{text-align: center;}
