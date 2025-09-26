@@ -31,7 +31,6 @@ hr {
   margin-bottom: 20px;
 }
 table {
-    border: 4px double #333;
     width: 50%;        
     margin-left: 0;   
 }
@@ -43,3 +42,4 @@ th, td {
 .special {
     color:darkorange
 }
+a { color: black }
